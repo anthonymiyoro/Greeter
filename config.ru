@@ -3,3 +3,5 @@ class Greeter
 	[200, {}, ["Hello world!"]]
 	end
 end
+
+run Greeter.new
