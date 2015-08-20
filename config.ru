@@ -1,7 +1,3 @@
-class Greeter
-	def call(env)
-	[200, {}, ["Hello world!"]]
-	end
-end
+require "greeter"
 
 run Greeter.new
