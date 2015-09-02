@@ -4,8 +4,8 @@ class User < ActiveRecord::Base
     before_save :create_avatar_url
     before_validation :prep_email
     validates :name, presence: true
-    validates :username, uniqueness: true,
-    validates :email, uniqueness: true, presence: true,
+    validates :username, uniqueness: true
+    validates :email, uniqueness: true, presence: true
     validates :email, uniqueness: true, presence: true, format: { with: /^[\w.+-]+@([\w]+.)+\w+$/ }
 
     private
