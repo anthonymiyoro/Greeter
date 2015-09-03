@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+
+    def attr_accessible
     attr_accessible :avatar_url, :email, :name, :password, :password_confirmation, :username
     has_secure_password
     before_save :create_avatar_url
@@ -7,6 +9,8 @@ class User < ActiveRecord::Base
     validates :username, uniqueness: true
     validates :email, uniqueness: true, presence: true
     validates :email, uniqueness: true, presence: true, format: { with: /^[\w.+-]+@([\w]+.)+\w+$/ }
+
+    end
 
     private
 
