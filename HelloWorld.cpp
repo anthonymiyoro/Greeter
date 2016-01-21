@@ -9,7 +9,7 @@ int main(){
     return 0;
 }
 
-
+// School version of Hello World
 // Hello World program in C++
 
 # include <iostream>
