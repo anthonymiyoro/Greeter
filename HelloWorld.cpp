@@ -5,21 +5,22 @@
 using namespace std;
 
 int main(){
-    cout << "Hello world!" << endl;
-    return 0;
+	
+    cout << "Hello world!";
+
 }
 
 // School version of Hello World
 // Hello World program in C++
 
-# include <iostream>
+// # include <iostream>
 
-using namespace std;
+// using namespace std;
 
-void main(){
-	cout << "Hello World!";
+// void main(){
+// 	cout << "Hello World!";
 
-	system("pause");
-}
+// 	system("pause");
+// }
 
 
