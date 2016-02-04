@@ -1,17 +1,13 @@
- # include <iostream>
-
+#include <iostream>
 using namespace std;
-
-int main()
-{
-	// int is used to show that the variable stores an integer
-	int a = 10;
+int main(){
 	int b = 10;
+	int h = 7;
+
+	int area = (b*h)*0.5;
+
+	cout << area;
 	
-	// all variables must have their data type listed
-	int sum = a + b;
-
-	cout << sum;
-
 	return 0;
 }
+
