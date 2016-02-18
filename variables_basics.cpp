@@ -84,3 +84,45 @@ int main(){
 
     return 0;
 }
+
+// Question 1
+# include <iostream>
+
+using namespace std;
+
+int main(){
+    int a = 0;
+    int b = 0;
+
+    cout << "Kindly input your year of birth ";
+    cin >> a;
+    cout << "What year is it? ";
+    cin >> b;
+
+    int c = b - a;
+    cout << "Your age is ";
+    cout << c;
+
+    return 0;
+}
+
+// Question 1
+# include <iostream>
+
+using namespace std;
+
+int main(){
+    float a = 0.00;
+    float b = 0.00;
+
+    cout << "Please input the radius of your cylinder in centimers ";
+    cin >> a;
+    cout << "And its height in centimeters ";
+    cin >> b;
+
+    double c = (3.14 * (a*a) * b);
+    cout << "The volume of you cylinder is ";
+    cout << c;
+
+    return 0;
+}
