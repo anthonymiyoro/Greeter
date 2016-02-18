@@ -126,3 +126,24 @@ int main(){
 
     return 0;
 }
+
+
+# include <iostream>
+
+using namespace std;
+
+int main(){
+    string a;
+    string b;
+
+    cout << "What is you first name? ";
+    cin >>  a;
+    cout << "What is your second name? ";
+    cin >> b;
+
+    cout << "Welcome ";
+    cout << a;
+    cout << b;
+
+    return 0;
+}
