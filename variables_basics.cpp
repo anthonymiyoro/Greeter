@@ -18,7 +18,7 @@ int main(){
     return 0;
 }
 
-// Question 1
+// Question 2
 # include <iostream>
 
 using namespace std;
@@ -38,6 +38,7 @@ int main(){
     return 0;
 }
 
+// Question 3
 # include <iostream>
 
 using namespace std;
@@ -57,7 +58,7 @@ int main(){
     return 0;
 }
 
-// Question 1
+// Question 4
 # include <iostream>
 
 using namespace std;
@@ -85,7 +86,7 @@ int main(){
     return 0;
 }
 
-// Question 1
+// Question 5
 # include <iostream>
 
 using namespace std;
@@ -106,7 +107,7 @@ int main(){
     return 0;
 }
 
-// Question 1
+// Question 6
 # include <iostream>
 
 using namespace std;
@@ -127,7 +128,7 @@ int main(){
     return 0;
 }
 
-
+// Question 7
 # include <iostream>
 
 using namespace std;
@@ -144,6 +145,78 @@ int main(){
     cout << "Welcome ";
     cout << a;
     cout << b;
+
+    return 0;
+}
+
+/// Question 8
+
+# include <string>
+# include <iostream>
+
+using namespace std;
+
+int main(){
+    string a;
+    string b;
+	string c;
+	int d;
+
+    cout << "What is you first name? ";
+    cin >>  a;
+    cout << "And your University? ";
+    cin >> b;
+	cout << "What course are you pursuing? ";
+    cin >> c;
+	cout << "What year of study are you in? ";
+    cin >> d;
+
+
+    cout << "First Name       ";
+    cout << a;
+	cout << "\nUniversity       ";
+    cout << b;
+    cout << "\nCourse of study  ";
+    cout << c;
+    cout << "\nYear of study    ";
+    cout << d;
+ 
+ 
+	system("pause");
+    return 0;
+}
+
+
+
+// Question 9
+
+# include <iostream>
+
+using namespace std;
+
+int main(){
+    int a = 0;
+    int b = 0;
+    int c = 0;
+   
+
+
+    cout << "Input 3 different integers please ";
+    cin >> a;
+    cin >> b;
+    cin >> c;
+
+    int d = a + b+ c;
+    cout << "The sum is  ";
+    cout << d ;cout <<endl;
+
+    int e = (a + b + c)/3;
+    cout << "The average is  ";
+    cout << e;cout <<endl;
+
+    int f = a * b * c;
+    cout << "The product is  ";
+    cout << f ;cout <<endl;
 
     return 0;
 }
