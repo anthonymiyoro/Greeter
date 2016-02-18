@@ -1,88 +1,86 @@
+// Question 1
+# include <iostream>
+
+using namespace std;
+
+int main(){
+    int a = 0;
+    int b = 0;
+
+    cout << "Kindly input any 2 numbers ";
+    cin >> a;
+    cin >> b;
+
+    int c = a/b;
+    cout << "The division of the 2 numbers is ";
+    cout << c;
+
+    return 0;
+}
 
 // Question 1
-#include <iostream>
-	using namespace std;
-	int main(){
-		int b = 10;
-		int h = 7;
-	
+# include <iostream>
 
-		int area = (b*h)*0.5;
-	
-
-		cout << area;
-		
-		return 0;
-	}
-	
-
-
-// Question 2
-#include <iostream>
 using namespace std;
-int main()
-{
-	int b = 10;
-	int h = 7;
-	int hyp = 12;
 
-	int area = 0.5*b*h;
-	int peri = b+h+hyp;
+int main(){
+    int a = 0;
+    int b = 0;
 
-	cout << "The area is  ";
-	cout << area;
-	cout << "  While the perimeter is ";
-	cout << peri;
+    cout << "Kindly input any 2 numbers ";
+    cin >> a;
+    cin >> b;
 
-	return 0;
+    int c = a%b;
+    cout << "The modulus of the 2 numbers is ";
+    cout << c;
+
+    return 0;
 }
 
-// Question 3
-#include <iostream>
+# include <iostream>
+
 using namespace std;
+
 int main(){
-	int pur = 450000;
-	int sol = 580000;
+    float a = 0.0;
+    float b = 0.0;
 
-	int profit = sol - pur;
+    cout << "Kindly input any 2 numbers ";
+    cin >> a;
+    cin >> b;
 
-	cout << "The profit is  ";
-	cout << profit;
+    float c = a * b;
+    cout << "The product of the multiplication of the 2 numbers is ";
+    cout << c;
 
-	return 0;
+    return 0;
 }
 
-// Question 4
-#include <iostream>
+// Question 1
+# include <iostream>
 
 using namespace std;
+
 int main(){
+    int a = 0;
+    int b = 0;
+    int d = 0;
 
-	int born = 1954;
-	int year = 2016;
+    cout << "Kindly enter the base of the triangle ";
+    cin >> a;
+    cout << "And the height of course! ";
+    cin >> b;
+    cout << "Dont forget the hypotenuse! ";
+    cin >> d;
 
-	int age = year - born;
+    int c = (a*b)/2;
+    cout << "The area of the triangle is \n ";
+    cout << c ;
 
-	cout << "Peters age is ";
-	cout << age;
+    int e = a + b + d;
+    cout << "\n While the perimeter of the triangle is \n";
+    cout << e;
 
-	return 0;
-}
-
-// Question 6
-#include <iostream>
-
-using namespace std;
-int main(){
-
-	float total = 20.0;
-	float sons = 6.0;
-
-	float land = total/sons;
-
-	cout << "Each son should recieve ";
-	cout << land;
-	cout << "  Hectares of land ";
-
-	return 0;
+    return 0;
 }
