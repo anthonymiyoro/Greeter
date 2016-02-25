@@ -32,7 +32,6 @@ int main(){
     return 0;
 }
 
-
 # include <string>
 # include <iostream>
 
@@ -49,7 +48,7 @@ i = 100;
 p = &i;
 // the address of j is assigned to q
 q = &j;
-// pointer variable q is assigned to the number stored in i
+// pointer variable q is assigned to the number stored in i, q then becoms 100
 *q = i;
 // the value pointed by p is added to the value pointed by q
 *q = *p + *q;
@@ -60,3 +59,39 @@ return 0;
 
 
 // The output is then 200
+
+
+// pro1.cpp : Defines the entry point for the console application.
+//
+# include <string>
+# include <iostream>
+
+using namespace std;
+
+int main(){
+ // the pointers and variables are declared below 
+int z, x,w;
+int *ip1, *ip2,*fp;
+ // the address of z is assigned to ip1
+ ip1 = &z;
+ // the address of x is assigned to ip2
+ ip2 = &x;
+ // the address of w is assigned to fp
+    fp=&w;
+
+// since the addresses of z and w had been given to ip1 and fp respectively 
+// the output is
+// 0x7d15f1fd1428
+// 0x7d15f1fd142c
+// 116
+// 200
+ 
+*ip1 = 200;
+ *fp = 116;
+ 
+cout<<ip1<<endl;
+cout<<ip2<<endl;
+ cout<< w<<endl;
+ cout<< z<<endl;
+
+}
