@@ -95,3 +95,32 @@ cout<<ip2<<endl;
  cout<< z<<endl;
 
 }
+
+
+// pro1.cpp : Defines the entry point for the console application.
+//
+# include <string>
+# include <iostream>
+
+using namespace std;
+
+int main(){
+	int value1;
+	int value2;
+    int *longPtr;
+
+    value1 = 20000;
+
+    longPtr = &value1;
+    // answer for c
+    cout << *longPtr<<endl;
+    // answer for e
+    cout << longPtr<<endl;
+    value2  = *longPtr;
+    // answer for f
+    cout << *longPtr<<endl;
+    // answer for g
+    cout << longPtr<<endl;
+
+    return 0;
+}
