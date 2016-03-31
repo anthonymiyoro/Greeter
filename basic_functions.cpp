@@ -9,6 +9,12 @@ int sum = 0;
 //function declaration
 int calc(int length, int width, int area);
 
+//main function
+int main() {
+    int rec1 = calc(5,6);
+    int rec2 = calc(10,12);
+
+}
 
 //function that computes area
 int calc(int length, int width){
@@ -19,11 +25,6 @@ int calc(int length, int width){
     cout << "the length is " << length << endl;
 }
 
-//main function
-int main() {
-    int rec1 = calc(5,6);
-    int rec2 = calc(10,12);
-}
 
 
 
